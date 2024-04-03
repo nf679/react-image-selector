@@ -22,6 +22,7 @@ Launches the test runner in the interactive watch mode.
 
 - `src/App.tsx` contains the code for the app - it imports the ImageSelectorComponent which contains the bulk of the code. This is how you would use the image selector component.
 - `src/ImageSelector.tsx` contains a basic image selector - it takes an array of images, displays them in a grid using Material UI and stores the selected image in state.
+- The only dependency is really Material UI as that is used in Doppio to display things. 
 
 ## Packages I've looked at 
 
