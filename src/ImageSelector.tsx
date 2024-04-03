@@ -6,7 +6,7 @@ interface Image {
   url: string;
 }
 
-
+// Basic image selection component for use with an array of images (like jpg images)
 const ImageSelectorComponent: React.FC = () => {
 
   const [images, setImages] = useState<Image[]>([
