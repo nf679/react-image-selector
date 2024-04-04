@@ -24,7 +24,7 @@ Launches the test runner in the interactive watch mode.
 - `src/ImageSelector.tsx` contains a basic image selector - it takes an array of images, displays them in a grid using Material UI and stores the selected image in state.
 - The only dependency is really Material UI as that is used in Doppio to display things. 
 
-## Packages I've looked at 
+## Packages I've looked at 
 
 - I've checked out `react-image-picker` which looked v useful, but it's built on an old version of React and hasn't been updated in 7 years.
 - There's also `react-selectable` which allows individual or group selection of items but it's not very commonly used and hasn't been updated in 4 years. Also, the demo I found that uses it just doesn't work. 
